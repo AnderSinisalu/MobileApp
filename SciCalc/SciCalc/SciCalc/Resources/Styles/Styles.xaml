@@ -75,19 +75,27 @@
         <!--lable styles-->
 
     <Style TargetType="Label" x:Key="EqualsLabelStyles">
-        <Setter Property="FontSize" Value="28"/>
-        <Setter Property="TextColor" Value="#efbb31"/>
-        <Setter Property="FontFamily" Value="LightFont"/>
-        <Setter Property="LineBreakMode" Value="TailTruncation"/>
-        <Setter Property="FontAutoScalingEnabled" Value="False"/>
+        <Setter Property="FontSize" Value="28" />
+        <Setter Property="TextColor" Value="#efbb31" />
+        <Setter Property="FontFamily" Value="LightFont" />
+        <Setter Property="LineBreakMode" Value="TailTruncation" />
+        <Setter Property="FontAutoScalingEnabled" Value="False" />
+    </Style>
+
+    <Style TargetType="Label" x:Key="ResultLabelStyles">
+        <Setter Property="FontSize" Value="28" />
+        <Setter Property="TextColor" Value="White" />
+        <Setter Property="FontFamily" Value="RegularFont" />
+        <Setter Property="LineBreakMode" Value="TailTruncation" />
+        <Setter Property="FontAutoScalingEnabled" Value="False" />
     </Style>
 
     <Style TargetType="Label" x:Key="InputBoxLabelStyles">
-        <Setter Property="FontSize" Value="32"/>
-        <Setter Property="TextColor" Value="White"/>
-        <Setter Property="FontFamily" Value="LightFont"/>
-        <Setter Property="LineBreakMode" Value="WordWrap"/>
-        <Setter Property="FontAutoScalingEnabled" Value="False"/>
+        <Setter Property="FontSize" Value="32" />
+        <Setter Property="TextColor" Value="White" />
+        <Setter Property="FontFamily" Value="LightFont" />
+        <Setter Property="LineBreakMode" Value="WordWrap" />
+        <Setter Property="FontAutoScalingEnabled" Value="False" />
     </Style>
 
 </ResourceDictionary>
