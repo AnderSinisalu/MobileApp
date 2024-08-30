@@ -5,7 +5,7 @@
              Title="CalculatorPage">
 
     <Grid
-        RowDefinitions="*,68,48,44,44,48,64,64,64,46"
+        RowDefinitions="*,68,48,44,44,48,64,64,64,64"
         ColumnDefinitions="*,*,*,*,*">
         
         <!--Color Answer Row-->
@@ -244,6 +244,7 @@
             ZIndex="1"
             Margin="0,0,1,1"
             Style="{StaticResource NumberButtonStyle}"
+            Command="NumberInputCommand"
             Text="7" />
 
         <Button 
@@ -252,6 +253,7 @@
             ZIndex="1"
             Margin="0,0,1,1"
             Style="{StaticResource NumberButtonStyle}"
+            Command="NumberInputCommand"
             Text="8" />
 
         <Button 
@@ -260,6 +262,7 @@
             ZIndex="1"
             Margin="0,0,1,1"
             Style="{StaticResource NumberButtonStyle}"
+            Command="NumberInputCommand"
             Text="9" />
 
         <Button 
@@ -268,6 +271,7 @@
             ZIndex="1"
             Margin="0,0,1,1"
             Style="{StaticResource NumberButtonStyle}"
+            Command="NumberInputCommand"
             Text="4" />
 
         <Button 
@@ -276,6 +280,7 @@
             ZIndex="1"
             Margin="0,0,1,1"
             Style="{StaticResource NumberButtonStyle}"
+            Command="NumberInputCommand"
             Text="5" />
 
         <Button 
@@ -284,6 +289,7 @@
             ZIndex="1"
             Margin="0,0,1,1"
             Style="{StaticResource NumberButtonStyle}"
+            Command="NumberInputCommand"
             Text="6" />
 
         <Button 
@@ -292,6 +298,7 @@
             ZIndex="1"
             Margin="0,0,1,1"
             Style="{StaticResource NumberButtonStyle}"
+            Command="NumberInputCommand"
             Text="1" />
 
         <Button 
@@ -300,6 +307,7 @@
             ZIndex="1"
             Margin="0,0,1,1"
             Style="{StaticResource NumberButtonStyle}"
+            Command="NumberInputCommand"
             Text="2" />
 
         <Button 
@@ -308,6 +316,7 @@
             ZIndex="1"
             Margin="0,0,1,1"
             Style="{StaticResource NumberButtonStyle}"
+            Command="NumberInputCommand"
             Text="3" />
 
         <Button 
@@ -316,6 +325,7 @@
             ZIndex="1"
             Margin="0,0,1,1"
             Style="{StaticResource NumberButtonStyle}"
+            Command="NumberInputCommand"
             Text="0" />
 
         <Button 
@@ -324,6 +334,7 @@
             ZIndex="1"
             Margin="0,0,1,1"
             Style="{StaticResource NumberButtonStyle}"
+            Command="NumberInputCommand"
             Text="." />
 
         <Button 
@@ -332,6 +343,7 @@
             ZIndex="1"
             Margin="0,0,1,1"
             Style="{StaticResource NumberButtonStyle}"
+            Command="BackspaceCommand"
             Text="⌫" />
 
         <!--Mathematical Operators-->
@@ -344,6 +356,7 @@
             ZIndex="1"
             Margin="0,0,1,1"
             Style="{StaticResource OperatorButtonStyle}"
+            Command="ResetCommand"
             Text="AC" />
 
         <Button 
@@ -352,6 +365,7 @@
             ZIndex="1"
             Margin="0,0,1,1"
             Style="{StaticResource OperatorButtonStyle}"
+            Command="MathOperatorCommand"
             Text="×" />
 
         <Button 
@@ -360,6 +374,7 @@
             ZIndex="1"
             Margin="0,0,1,1"
             Style="{StaticResource OperatorButtonStyle}"
+            Command="MathOperatorCommand"
             Text="÷" />
 
         <Button 
@@ -368,6 +383,7 @@
             ZIndex="1"
             Margin="0,0,1,1"
             Style="{StaticResource OperatorButtonStyle}"
+            Command="MathOperatorCommand"
             Text="+" />
 
         <Button 
@@ -376,6 +392,7 @@
             ZIndex="1"
             Margin="0,0,1,1"
             Style="{StaticResource OperatorButtonStyle}"
+            Command="MathOperatorCommand"
             Text="-" />
 
         <Button 
@@ -385,6 +402,7 @@
             ZIndex="1"
             Margin="0,0,1,1"
             Style="{StaticResource OperatorButtonStyle}"
+            Command="CalculateCommand"
             Text="=" />
 
     </Grid>
