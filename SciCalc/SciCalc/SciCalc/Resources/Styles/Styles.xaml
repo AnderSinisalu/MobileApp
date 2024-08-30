@@ -72,7 +72,7 @@
         <Setter Property="FontAutoScalingEnabled" Value="False" />
     </Style>
         
-        <!--lable styles-->
+        <!--label styles-->
 
     <Style TargetType="Label" x:Key="EqualsLabelStyles">
         <Setter Property="FontSize" Value="28" />
