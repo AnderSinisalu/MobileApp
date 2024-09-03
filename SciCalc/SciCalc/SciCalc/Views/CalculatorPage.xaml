@@ -81,6 +81,7 @@
             Margin="6,10,6,4"
             Style="{StaticResource ScientificOperatorButtonStyle}"
             Command="{Binding ScientificOperatorCommand}"
+            CommandParameter="MEAN"
             Text="MEAN" />
 
         <Button 
@@ -90,6 +91,7 @@
             Margin="6,10,6,4"
             Style="{StaticResource ScientificOperatorButtonStyle}"
             Command="{Binding ScientificOperatorCommand}"
+            CommandParameter="MOD"
             Text="MOD" />
 
         <Button 
@@ -99,6 +101,7 @@
             Margin="6,10,6,4"
             Style="{StaticResource ScientificOperatorButtonStyle}"
             Command="{Binding ScientificOperatorCommand}"
+            CommandParameter="STD"
             Text="STD" />
 
         <Button 
@@ -108,6 +111,7 @@
             Margin="6,10,6,4"
             Style="{StaticResource ScientificOperatorButtonStyle}"
             Command="{Binding ScientificOperatorCommand}"
+            CommandParameter="VAR"
             Text="VAR" />
 
         <Button 
@@ -117,6 +121,7 @@
             Margin="6,10,6,4"
             Style="{StaticResource ScientificOperatorButtonStyle}"
             Command="{Binding ScientificOperatorCommand}"
+            CommandParameter="FACT"
             Text="FACT" />
 
         <Button 
@@ -126,6 +131,7 @@
             Margin="6,10,6,4"
             Style="{StaticResource ScientificOperatorButtonStyle}"
             Command="{Binding ScientificOperatorCommand}"
+            CommandParameter="SIN"
             Text="SIN" />
 
         <Button 
@@ -135,6 +141,7 @@
             Margin="6,10,6,4"
             Style="{StaticResource ScientificOperatorButtonStyle}"
             Command="{Binding ScientificOperatorCommand}"
+            CommandParameter="COS"
             Text="COS" />
 
         <Button 
@@ -144,6 +151,7 @@
             Margin="6,10,6,4"
             Style="{StaticResource ScientificOperatorButtonStyle}"
             Command="{Binding ScientificOperatorCommand}"
+            CommandParameter="TAN"
             Text="TAN" />
 
         <Button 
@@ -153,6 +161,7 @@
             Margin="6,10,6,4"
             Style="{StaticResource ScientificOperatorButtonStyle}"
             Command="{Binding ScientificOperatorCommand}"
+            CommandParameter="LOG"
             Text="LOG" />
 
         <Button 
@@ -162,6 +171,7 @@
             Margin="6,10,6,4"
             Style="{StaticResource ScientificOperatorButtonStyle}"
             Command="{Binding ScientificOperatorCommand}"
+            CommandParameter="EXP"
             Text="EXP" />
 
         <Button 
@@ -171,6 +181,7 @@
             Margin="6,10,6,4"
             Style="{StaticResource ScientificOperatorButtonStyle}"
             Command="{Binding ScientificOperatorCommand}"
+            CommandParameter="ASIN"
             Text="ASIN" />
 
         <Button 
@@ -180,6 +191,7 @@
             Margin="6,10,6,4"
             Style="{StaticResource ScientificOperatorButtonStyle}"
             Command="{Binding ScientificOperatorCommand}"
+            CommandParameter="ACOS"
             Text="ACOS" />
 
         <Button 
@@ -189,6 +201,7 @@
             Margin="6,10,6,4"
             Style="{StaticResource ScientificOperatorButtonStyle}"
             Command="{Binding ScientificOperatorCommand}"
+            CommandParameter="ATAN"
             Text="ATAN" />
 
 
@@ -199,6 +212,7 @@
             Margin="6,10,6,4"
             Style="{StaticResource ScientificOperatorButtonStyle}"
             Command="{Binding ScientificOperatorCommand}"
+            CommandParameter="LOG10"
             Text="LOG10" />
 
         <Button 
@@ -208,6 +222,7 @@
             Margin="6,10,6,4"
             Style="{StaticResource ScientificOperatorButtonStyle}"
             Command="{Binding ScientificOperatorCommand}"
+            CommandParameter="POW"
             Text="POW" />
 
         <Button 
@@ -217,6 +232,7 @@
             Margin="6,10,6,4"
             Style="{StaticResource ScientificOperatorButtonStyle}"
             Command="{Binding ScientificOperatorCommand}"
+            CommandParameter="SQRT"
             Text="SQRT" />
 
         <Button 
@@ -226,6 +242,7 @@
             Margin="6,10,6,4"
             Style="{StaticResource ScientificOperatorButtonStyle}"
             Command="{Binding ScientificOperatorCommand}"
+            CommandParameter="ABS"
             Text="ABS" />
 
         <Button 
@@ -235,6 +252,7 @@
             Margin="6,10,6,4"
             Style="{StaticResource ScientificOperatorButtonStyle}"
             Command="{Binding ScientificOperatorCommand}"
+            CommandParameter=","
             Text="," />
 
         <Button 
@@ -244,6 +262,7 @@
             Margin="6,10,6,4"
             Style="{StaticResource ScientificOperatorButtonStyle}"
             Command="{Binding ScientificOperatorCommand}"
+            CommandParameter="("
             Text="(" />
 
         <Button 
@@ -253,6 +272,7 @@
             Margin="6,10,6,4"
             Style="{StaticResource ScientificOperatorButtonStyle}"
             Command="{Binding ScientificOperatorCommand}"
+            CommandParameter=")"
             Text=")" />
 
         <!--Number Operators-->
@@ -265,6 +285,7 @@
             Margin="0,0,1,1"
             Style="{StaticResource NumberButtonStyle}"
             Command="{Binding NumberInputCommand}"
+            CommandParameter="7"
             Text="7" />
 
         <Button 
@@ -274,6 +295,7 @@
             Margin="0,0,1,1"
             Style="{StaticResource NumberButtonStyle}"
             Command="{Binding NumberInputCommand}"
+            CommandParameter="8"
             Text="8" />
 
         <Button 
@@ -283,6 +305,7 @@
             Margin="0,0,1,1"
             Style="{StaticResource NumberButtonStyle}"
             Command="{Binding NumberInputCommand}"
+            CommandParameter="9"
             Text="9" />
 
         <Button 
@@ -292,6 +315,7 @@
             Margin="0,0,1,1"
             Style="{StaticResource NumberButtonStyle}"
             Command="{Binding NumberInputCommand}"
+            CommandParameter="4"
             Text="4" />
 
         <Button 
@@ -301,6 +325,7 @@
             Margin="0,0,1,1"
             Style="{StaticResource NumberButtonStyle}"
             Command="{Binding NumberInputCommand}"
+            CommandParameter="5"
             Text="5" />
 
         <Button 
@@ -310,6 +335,7 @@
             Margin="0,0,1,1"
             Style="{StaticResource NumberButtonStyle}"
             Command="{Binding NumberInputCommand}"
+            CommandParameter="6"
             Text="6" />
 
         <Button 
@@ -319,6 +345,7 @@
             Margin="0,0,1,1"
             Style="{StaticResource NumberButtonStyle}"
             Command="{Binding NumberInputCommand}"
+            CommandParameter="1"
             Text="1" />
 
         <Button 
@@ -328,6 +355,7 @@
             Margin="0,0,1,1"
             Style="{StaticResource NumberButtonStyle}"
             Command="{Binding NumberInputCommand}"
+            CommandParameter="2"
             Text="2" />
 
         <Button 
@@ -337,6 +365,7 @@
             Margin="0,0,1,1"
             Style="{StaticResource NumberButtonStyle}"
             Command="{Binding NumberInputCommand}"
+            CommandParameter="3"
             Text="3" />
 
         <Button 
@@ -346,6 +375,7 @@
             Margin="0,0,1,1"
             Style="{StaticResource NumberButtonStyle}"
             Command="{Binding NumberInputCommand}"
+            CommandParameter="0"
             Text="0" />
 
         <Button 
@@ -355,6 +385,7 @@
             Margin="0,0,1,1"
             Style="{StaticResource NumberButtonStyle}"
             Command="{Binding NumberInputCommand}"
+            CommandParameter="."
             Text="." />
 
         <Button 
@@ -364,6 +395,7 @@
             Margin="0,0,1,1"
             Style="{StaticResource NumberButtonStyle}"
             Command="{Binding BackspaceCommand}"
+            CommandParameter="⌫"
             Text="⌫" />
 
         <!--Mathematical Operators-->
@@ -386,6 +418,7 @@
             Margin="0,0,1,1"
             Style="{StaticResource OperatorButtonStyle}"
             Command="{Binding MathOperatorCommand}"
+            CommandParameter="×"
             Text="×" />
 
         <Button 
@@ -395,6 +428,7 @@
             Margin="0,0,1,1"
             Style="{StaticResource OperatorButtonStyle}"
             Command="{Binding MathOperatorCommand}"
+            CommandParameter="÷"
             Text="÷" />
 
         <Button 
@@ -404,6 +438,7 @@
             Margin="0,0,1,1"
             Style="{StaticResource OperatorButtonStyle}"
             Command="{Binding MathOperatorCommand}"
+            CommandParameter="+"
             Text="+" />
 
         <Button 
@@ -413,6 +448,7 @@
             Margin="0,0,1,1"
             Style="{StaticResource OperatorButtonStyle}"
             Command="{Binding MathOperatorCommand}"
+            CommandParameter="-"
             Text="-" />
 
         <Button 
@@ -423,6 +459,7 @@
             Margin="0,0,1,1"
             Style="{StaticResource OperatorButtonStyle}"
             Command="{Binding CalculateCommand}"
+            CommandParameter="="
             Text="=" />
 
     </Grid>

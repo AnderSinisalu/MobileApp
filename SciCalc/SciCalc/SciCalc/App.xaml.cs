@@ -12,15 +12,16 @@ namespace SciCalc
     {
         const int WindowWidth = 540;
         const int WindowHeight = 1000;
+
         public App()
         {
             InitializeComponent();
 
 #if WINDOWS
-        Microsoft.Maui.Handlers.WindowHandler.Mapper.AppendToMapping(nameof(Window), (Handler, view) =>
+        Microsoft.Maui.Handlers.WindowHandler.Mapper.AppendToMapping(nameof(IWindow), (handler, view) =>
         {
-            var mauiWindow = Handler.VirtualView;
-            var nativeWindow = Handler.PlatformView;
+            var mauiWindow = handler.VirtualView;
+            var nativeWindow = handler.PlatformView;
             nativeWindow.Activate();
             IntPtr windowHandle = WinRT.Interop.WindowNative.GetWindowHandle(nativeWindow);
             WindowId windowId = Microsoft.UI.Win32Interop.GetWindowIdFromWindow(windowHandle);
