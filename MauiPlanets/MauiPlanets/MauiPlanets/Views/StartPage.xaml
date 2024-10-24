@@ -13,7 +13,7 @@
 
     <Grid>
         <!--Planets Image-->
-        <Image
+        <Image 
             x:Name="imgEarth"
             Opacity="0"
             Source="earth.png"
@@ -24,7 +24,7 @@
             WidthRequest="96"
             HeightRequest="96"/>
 
-        <Image
+        <Image 
             x:Name="imgJupiter"
             Opacity="0"
             Source="jupiter.png"
@@ -35,7 +35,7 @@
             WidthRequest="200"
             HeightRequest="200"/>
 
-        <Image
+        <Image 
             x:Name="imgSaturn"
             Opacity="0"
             Source="saturn.png"
@@ -46,7 +46,7 @@
             WidthRequest="300"
             HeightRequest="300"/>
 
-        <Image
+        <Image 
             x:Name="imgMars"
             Opacity="0"
             Source="mars.png"
@@ -57,7 +57,7 @@
             WidthRequest="140"
             HeightRequest="140"/>
 
-        <Image
+        <Image 
             x:Name="imgMercury"
             Opacity="0"
             Source="mercury.png"
@@ -68,7 +68,7 @@
             WidthRequest="66"
             HeightRequest="66"/>
 
-        <Image
+        <Image 
             x:Name="imgVenus"
             Opacity="0"
             Source="venus.png"
@@ -79,7 +79,7 @@
             WidthRequest="76"
             HeightRequest="76"/>
 
-        <Image
+        <Image 
             x:Name="imgUranus"
             Opacity="0"
             Source="uranus.png"
@@ -90,7 +90,7 @@
             WidthRequest="200"
             HeightRequest="200"/>
 
-        <Image
+        <Image 
             x:Name="imgNeptune"
             Opacity="0"
             Source="neptune.png"
@@ -100,7 +100,7 @@
             TranslationY="-72"
             WidthRequest="200"
             HeightRequest="200"/>
-        
+
         <!--Intro Box-->
         <Border
             x:Name="imgIntro"
@@ -118,27 +118,27 @@
             <VerticalStackLayout
                 Spacing="16">
                 
-                <Label
+                <Label 
                     HorizontalOptions="Center"
                     HorizontalTextAlignment="Center"
                     Style="{StaticResource IntroPageHeaderStyle}"
                     Text="Hello!" />
 
-                <Label
+                <Label 
                     HorizontalOptions="Center"
                     HorizontalTextAlignment="Center"
                     LineBreakMode="WordWrap"
                     Style="{StaticResource IntroPageTextStyle}"
-                    Text="Want to know and explain all things about the planets in the solar system" />
+                    Text="Want to know and explain all things about the planets in the solar system?" />
 
-                <Button
+                <Button 
                     HorizontalOptions="Center"
                     Margin="0,12,0,6"
                     Style="{StaticResource ButtonStyle}"
-                    Text="Explore Now"
+                    Text="Explore Now" 
                     Clicked ="ExploreNow_Clicked" />
-                
             </VerticalStackLayout>
+            
         </Border>
 
     </Grid>
