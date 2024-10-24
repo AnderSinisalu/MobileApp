@@ -138,7 +138,7 @@ namespace MauiPlanets.Services
                 }
             },
 
-                        new()
+            new()
             {
                 Name = "Neptune",
                 Subtitle = "The god of the sea",
@@ -155,7 +155,102 @@ namespace MauiPlanets.Services
                 {
                     "https://solarsystem.nasa.gov/system/feature_items/images/82_carousel_neptune_1.jpg",
                     "https://solarsystem.nasa.gov/system/feature_items/images/86_carousel_neptune_5.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/84_neptune_carousel_2.jpg"
+                    "https://solarsystem.nasa.gov/system/feature_items/images/84_neptune_carousel_2.jpg",
+                }
+            },
+
+            new()
+            {
+                Name = "Pluto",
+                Subtitle = "The 9th planet",
+                HeroImage = "pluto.png",
+                Description = "Pluto is a dwarf planet in the Kuiper belt, " +
+                            "a ring of bodies beyond the orbit of Neptune. " +
+                            "It is the ninth-largest and tenth-most-massive known " +
+                            "object to directly orbit the Sun. " +
+                            "It is the largest known trans-Neptunian object by volume, " +
+                            "by a small margin, but is less massive than Eris. ",
+                AccentColorStart = Color.FromArgb("#8c8265"),
+                AccentColorEnd = Color.FromArgb("#d1c9b2"),
+                Images = new()
+                {
+                    "https://science.nasa.gov/wp-content/uploads/2023/06/color-image-of-pluto-pia20291-1.jpg?w=2048&format=webp",
+                    "https://images-assets.nasa.gov/image/PIA11707/PIA11707~large.jpg?w=1920&h=960&fit=clip&crop=faces%2Cfocalpoint",
+                }
+            },
+
+            new()
+            {
+                Name = "Ceres",
+                Subtitle = "The largest asteroid",
+                HeroImage = "ceres.png",
+                Description = "Ceres is a dwarf planet in the middle main asteroid belt " +
+                            "between the orbits of Mars and Jupiter. It was the first known asteroid, " +
+                            "discovered on 1 January 1801 by Giuseppe Piazzi at Palermo Astronomical " +
+                            "Observatory in Sicily, and announced as a new planet. ",
+                AccentColorStart = Color.FromArgb("#0698c4"),
+                AccentColorEnd = Color.FromArgb("#057799"),
+                Images = new()
+                {
+                    "https://upload.wikimedia.org/wikipedia/commons/7/76/Ceres_-_RC3_-_Haulani_Crater_%2822381131691%29_%28cropped%29.jpg"
+                }
+            },
+
+            new()
+            {
+                Name = "Haumea",
+                Subtitle = "The space doughnut",
+                HeroImage = "haumea.png",
+                Description = "Haumea is a dwarf planet located beyond Neptune's orbit. It was discovered " +
+                            "in 2004. Haumea's mass is about one-third that of Pluto " +
+                            "and 1/1400 that of Earth. Although its shape has not been directly " +
+                            "observed, calculations from its light curve are consistent with it " +
+                            "being a Jacobi ellipsoid, with its major axis twice as long as its minor. ",
+                AccentColorStart = Color.FromArgb("#946d03"),
+                AccentColorEnd = Color.FromArgb("#c49104"),
+                Images = new()
+                {
+                    "https://cdn.mos.cms.futurecdn.net/h5P8ZW8QJAscrMQ9r6euoc-650-80.jpg.webp",
+                    "https://pbs.twimg.com/media/FvoXf4JWIBY2ktX?format=jpg&name=large"
+                }
+            },
+
+            new()
+            {
+                Name = "MakeMake",
+                Subtitle = "The distant dwarf planet",
+                HeroImage = "makemake.png",
+                Description = "Makemake is a dwarf planet and the largest of what is known " +
+                            "as the classical population of Kuiper belt objects, with a diameter " +
+                            "approximately that of Saturn's moon Iapetus, or 60% that of Pluto. " +
+                            "Its extremely low average temperature, about 40 K (−230 °C), means its " +
+                            "surface is covered with methane, ethane, and possibly nitrogen ices.",
+                AccentColorStart = Color.FromArgb("#d96302"),
+                AccentColorEnd = Color.FromArgb("#7d3800"),
+                Images = new()
+                {
+                    "https://science.nasa.gov/wp-content/uploads/2023/07/Makemake_moon-1.jpeg?w=1280&format=webp",
+                    "https://cdn.mos.cms.futurecdn.net/8QBGiy9BhmttKdGeAAZpn8.jpg.webp",
+                    "https://astronz.nz/cdn/shop/articles/makemake.png?v=1682129134"
+                }
+            },
+
+            new()
+            {
+                Name = "Eris",
+                Subtitle = "The largest dwarf planet",
+                HeroImage = "eris.png",
+                Description = "Eris is the most massive and second-largest known dwarf planet in the Solar " +
+                            "System. It is a trans-Neptunian object in the scattered disk " +
+                            "and has a high-eccentricity orbit. Eris is the ninth-most massive known " +
+                            "object orbiting the Sun and the sixteenth-most massive overall in the Solar System. ",
+                AccentColorStart = Color.FromArgb("#e0b989"),
+                AccentColorEnd = Color.FromArgb("#63523d"),
+                Images = new()
+                {
+                    "https://images-assets.nasa.gov/image/PIA03034/PIA03034~orig.jpg?w=603&h=200&fit=clip&crop=faces%2Cfocalpoint",
+                    "https://science.nasa.gov/wp-content/uploads/2023/06/Artists_c_oncept_of_Eris_and_Dysnomia_far_from_the_Sun-jpeg.webp?w=1280&format=webp",
+                    "https://www.earth.com/assets/_next/image/?url=https%3A%2F%2Fcff2.earth.com%2Fuploads%2F2024%2F02%2F20135637%2FEris_icy-dwarf-planet_kuiper-belt_1m-1400x850.jpg&w=1200&q=75"
                 }
             }
         };
